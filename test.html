@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Example</title>
+</head>
+<body>
+
+    <h1>Front-End Example</h1>
+
+    <!-- Input field to get the parameter value from the user -->
+    <label for="nameInput">Enter Name: </label>
+    <input type="text" id="nameInput">
+    <button onclick="getDataFromController()">Get Data from Controller</button>
+
+    <div id="result"></div>
+
+    <script>
+        async function getDataFromController() {
+            try {
+                // Get the value from the input field
+                const name = document.getElementById('nameInput').value;
+
+                // Make the API request with the parameter
+                const response = await fetch(`/api/getdata?name=${name}`);
+                const data = await response.json();
+
+                // Update the result div with the received data
+                document.getElementById('result').innerText = JSON.stringify(data);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        }
+    </script>
+
+</body>
+</html>
