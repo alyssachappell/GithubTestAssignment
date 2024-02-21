@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+		integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<script>
+		$(function () { $('#header').load('multi_page/header.html'); })
+		$(function () { $('#footer').load('multi_page/footer.html'); })
+		$(function () { $('#rightcolumn').load('multi_page/rightcolumn.html'); })
+
+	</script>
+	<title>Welcome to the BI Sample Site</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta name="viewport" content="initial-scale=1, width=device-width" />
+	<link href="styles_folder/styles.css" rel="stylesheet" type="text/css" />
+	<link href="styles_folder/screen.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="styles_folder/print.css" rel="stylesheet" type="text/css" media="print" />
+
+</head>
+<body>
+
+	<div id="container">
+		<!-- Header to change see header.html -->
+		<div id="header"></div>
+		<div id="maincontent">
+			<div id="leftcolumn">
+				<div class="lgpad">
+					<h1>
+						Meet Key Players
+					</h1>
+					<h2>Mario</h2>
+					<p>
+						<img alt="Mario" height="350" src="Images/mario.webp" class="imageleft">
+						Mario is a character created by Japanese video game designer Shigeru Miyamoto.
+						He is the title character of the Mario franchise and the mascot of Japanese video game company
+						Nintendo.
+						Mario has appeared in over 200 video games since his creation. Depicted as a short, pudgy,
+						Italian plumber who resides in the Mushroom Kingdom, his adventures generally center on rescuing
+						Princess Peach from the Koopa villain Bowser. Mario has access to a variety of power-ups that
+						give him different abilities. Mario's fraternal twin brother is Luigi.<br /><br>
+						<a href="https://www.google.com/search?q=Mario" target="_blank">Google Mario</a>
+					</p>
+					<h2>Bowser</h2>
+					<p>
+						<img alt="Bowser" height="300" src="Images/bowser.png" class="imageleft">
+						Bowser (クッパ, Kuppa, "Koopa") or King Koopa, is a fictional character,
+						the primary antagonist in Nintendo's Mario franchise, and the arch-nemesis of Mario.
+						In Japan, the character bears the title of Daimaō (大魔王, "Great Demon King").
+						Bowser is the leader of the turtle-like Koopa race. His ultimate goals are to kidnap Princess
+						Peach
+						and to defeat Mario and Luigi to conquer the Mushroom Kingdom.
+						Bowser's defining traits are his monstrous appearance with dragon-like elements,
+						full-throated roar, fire-breathing abilities,
+						never-ending conflict with Mario, and persistent kidnapping of Peach.<br /><br>
+						<a href="https://www.google.com/search?q=Bowser" target="_blank">Google Bowser</a>
+					</p>
+					<h2>Donkey Kong</h2>
+					<p>
+						<img alt="Donkey Kong" height="300" src="Images/Dk.png" class="imageleft">
+						Donkey Kong, also known simply as DK, D.K., or D. Kong,[1][2] is a major character in the
+						Mario franchise and the main protagonist of the Donkey Kong franchise.
+						He is a powerful and carefree Kong that lives in Donkey Kong Island, and he likes to collect
+						bananas
+						and spend time with his friends, particularly his best friend and sidekick Diddy Kong.
+						However, he has also been portrayed as an antagonist on multiple occasions,
+						mainly in the Mario vs. Donkey Kong series. <br><br>
+						<a href="https://www.google.com/search?q=Donkey+Kong" target="_blank">Google Donkey</a>
+					</p>
+				</div>
+			</div>
+			<!-- Right Column to change see rightcolumn.html -->
+			<div id="rightcolumn"></div>
+			<div class="clearfloat"></div>
+		</div>
+		<!-- Footer, to change, see footer.html  -->
+		<div id="footer"></div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+		integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<script>
+		$(function () { $('#header').load('multi_page/header.html'); })
+		$(function () { $('#footer').load('multi_page/footer.html'); })
+		$(function () { $('#rightcolumn').load('multi_page/rightcolumn.html'); })
+
+	</script>
+	<title>Welcome to the BI Sample Site</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta name="viewport" content="initial-scale=1, width=device-width" />
+	<link href="styles_folder/styles.css" rel="stylesheet" type="text/css" />
+	<link href="styles_folder/screen.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="styles_folder/print.css" rel="stylesheet" type="text/css" media="print" />
+
+</head>
+
+<body>
+
+	<div id="container">
+
+		<!-- Header, to change see header.html  -->
+		<div id="header"></div>
+		<div id="maincontent">
+			<!-- Left Columm  -->
+			<div id="leftcolumn">
+				<div class="lgpad">
+					<div class="lgpad">
+						<!-- Contact Form -->
+						<form action="Thank_You.html" method="get" name="CustomerSurvey" target="_self">
+
+							<h3>Contact Us</h3>
+
+							<label id="FNameLBL" for="FNameTXT"><span style="color:red;">*</span>First
+								Name:</label><br />
+							<input name="FName" id="FNameTXT" type="text" size="40" tabindex="1" /> <br />
+
+							<label id="LNameLBL" for="LNameTXT"><span style="color:red;">*</span>Last
+								Name:</label><br />
+							<input name="LName" id="LNameTXT" type="text" size="40" tabindex="2" /><br />
+
+							<label id="EMailLBL" for="EMailTXT"><span style="color:red;">*</span>Email:</label><br />
+							<input name="EMail" id="EMailTXT" size="40" tabindex="3" type="text" /><br />
+
+							<label id="commentLBL" for="CommentTA">Comments:</label><br />
+							<textarea name="Comment" id="CommentTA" cols="20" rows="4" tabindex="13"></textarea><br />
+							<input name="Submit" id="SubmitBTN" type="submit" value="Submit" />
+							<input name="Reset" id="ResetBTN" type="reset" value="Reset" />
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- Right Column to change see rightcolumn.html -->
+			<div id="rightcolumn"></div>
+			<div class="clearfloat"></div>
+		</div>
+		<!-- Footer, to change see footer.html  -->
+		<div id="footer"></div>
+	</div>
+</body>
+
+
+</html>

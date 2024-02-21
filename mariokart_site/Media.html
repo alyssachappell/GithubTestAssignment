@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+		integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<script>
+		$(function () { $('#header').load('multi_page/header.html'); })
+		$(function () { $('#footer').load('multi_page/footer.html'); })
+		$(function () { $('#rightcolumn').load('multi_page/rightcolumn.html'); })
+
+	</script>
+	<title>Welcome to the BI Sample Site</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta name="viewport" content="initial-scale=1, width=device-width" />
+	<link href="styles_folder/styles.css" rel="stylesheet" type="text/css" />
+	<link href="styles_folder/screen.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="styles_folder/print.css" rel="stylesheet" type="text/css" media="print" />
+
+</head>
+<body>
+	<div id="container">
+		<!-- Header, to change see header.html  -->
+		<div id="header"></div>
+		<div id="maincontent">
+
+			<div id="leftcolumn">
+				<!-- Embeded Video -->
+				<div class="lgpad">
+					<div class="lgpad">
+						<h1>MarioKart Epic Comebacks</h1>
+						<div id="youTubePlayer" style="width:560px;"></div>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/83kuSaPyGn0" frameborder="0"
+							gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+						<p>Check this out!</p>
+					</div>
+				</div>
+			</div>
+			<div id="rightcolumn">
+				<div class="smpad">
+					<img src="Images/CyberBlueXSmall.jpg" class="moveleft" alt="blue man" />
+
+					<h2>
+						Duis commodo leo sit amet quam.
+					</h2>
+
+					<p>
+						Nunc commodo sodales nunc.
+						Donec est nunc, porttitor et, accumsan nec, pretium quis, mauris.
+						Duis sapien. Nulla felis lorem, accumsan vitae, ultricies et, hendrerit
+						vel, massa. In nonummy tortor et metus.
+					</p>
+				</div>
+			</div>
+			<div class="clearfloat"></div>
+		</div>
+		<div id="footer"></div>
+	</div>
+</body>
+
+</html>

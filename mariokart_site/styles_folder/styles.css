@@ -1,0 +1,231 @@
+﻿body{
+	margin:0;
+	padding:0;
+	font-family:Arial,sans-serif;
+	background-color:#3399FF;
+	line-height:100%;
+	font-size:16px;
+	color:#000000;
+}
+
+#container{
+	margin:0 auto; 
+    background-color:#FFFFFF;  
+}
+
+
+#masthead{
+	color:#FFFFFF;
+	background-color:navy;
+	text-align:center;
+}
+
+#masthead h1{
+	font-size: 180%;
+	line-height: 235%;
+	color:#FFFFFF;
+    width:250px;
+}
+
+#navigation{
+	background-color:Gray;
+	margin:0;
+    padding:0;
+
+}
+
+#navigation ul{
+	margin:0;
+	padding:10px;
+	list-style:none;
+	overflow:hidden;
+}
+
+#navigation li{
+	padding:0;
+	margin:0;
+}
+
+#navigation a{
+		
+	border: 2px inset #CCCCCC;
+	background-color: #0000FF;
+	line-height: 250%;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 17px;
+	margin-left:40px;
+	text-decoration:none;
+
+}
+
+#navigation a:hover{
+	color: #FFFF00;
+	border: 2px outset #CCCCCC;
+
+}
+
+#maincontent
+{
+    background-image: url('../Images/background.jpg');
+    background-repeat:repeat-y;
+}
+
+
+#leftcolumn{
+	text-align:left;
+}
+
+#rightcolumn{
+	text-align:left;
+}
+
+#rightcolumn p
+{
+    font-size:small;
+    word-spacing: 105%;
+    line-height:110%;
+    margin:0;
+}
+
+#footer{
+	padding:0;
+	margin:0;
+    background-color:Navy;
+    color:#FFFFFF;
+    text-align:center;
+}
+
+#footer h3{
+	padding: 20px 20px;
+}
+
+#footer p
+{
+    margin:0;
+    padding-top: 20px;
+   color:#FFFFFF;
+    text-align:center;
+
+}
+
+#footer a:link
+{
+	color:#3399FF;
+	text-decoration:none;
+}
+
+#footer a:hover
+{
+	color:#3399FF;
+	text-decoration:none;
+}
+
+#footer a:visited
+{
+	color:#3399FF;
+	text-decoration:none;
+}
+
+h1
+{
+    color:Navy;
+    font-size:xx-large;
+    line-height:100%;
+    font-family:Tahoma;
+    clear:both;
+}
+
+h2
+{
+    color:Navy;
+    font-size:x-large;
+    line-height:100%;
+    font-family:Tahoma;
+    clear:both;
+}
+
+h3
+{
+    color:Navy;
+    font-size:large;
+    line-height:100%;
+    font-family:Tahoma;
+}
+
+.contact
+{
+	
+    text-align:right;
+    float:right;
+    color:#FFFFFF;
+    width: 250px;
+    font-size: small;
+    margin:0;
+    padding-right:5px;
+    padding-top: 10px;
+}
+
+
+
+.lgpad
+{
+    padding: 15px;
+}
+
+.smpad
+{
+    padding:10px;
+}
+
+
+.clearfloat
+{
+    clear:both;
+}
+
+.moveleft
+{
+    width:260px;
+    float:left;
+    text-align:left;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.moveright
+{
+    float:right;
+    width:260px;
+    text-align:right;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.imageleft
+{
+	float:left;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.imageright
+{
+	float:right;
+	padding-left:10px;
+	padding-bottom:10px;
+}
+
+.logoleft{
+	float:left;
+	width: 150px;
+}
+
+
+.validationleft {
+	float: left;
+	padding-top: 5px;
+	padding-left: 10px;
+}
